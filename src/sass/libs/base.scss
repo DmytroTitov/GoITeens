@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $main-ff;
+  font-size: $main-fz;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
