@@ -1,0 +1,19 @@
+.page_nav__btn {
+  background-color: #fcae26;
+  width: 192px;
+  height: 42px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px rgba(252, 174, 38, 0.4);
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: $title-ff;
+  font-weight: 700;
+  color: #f6f9fa;
+  transition: 0.25s;
+  margin-top: 44px;
+
+  &:hover {
+    background-color: #f39313;
+  }
+}
