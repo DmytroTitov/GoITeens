@@ -21,8 +21,8 @@
 
 .promo__shadow {
   background-color: rgba(14, 17, 27, 0.67);
-  padding: 10px;
-  min-width: 284px;
+  min-width: 278px;
+  padding: 5px 0px;
 }
 
 .promo__text {
@@ -32,16 +32,7 @@
   font-weight: 400;
   color: $light-color;
   margin-left: 20px;
-}
-
-.promo__text::before {
-  position: absolute;
-  display: block;
-  content: "";
-  border-left: 3px solid $line-color;
-  width: 100%;
-  height: 100%;
-  left: -20px;
+  line-height: 1.4;
 }
 
 .promo__text_yellow {
@@ -53,7 +44,8 @@
 
 @media screen and (min-width: 768px) {
   .promo__shadow {
-    min-width: 444px;
+    width: 408px;
+    padding: 0;
   }
 
   .promo__header {
@@ -67,12 +59,28 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .promo {
+    left: 30%;
+  }
+
   .promo__header {
     font-size: 65px;
+    margin-left: -140px;
   }
 
   .promo__shadow {
-    max-width: 494px;
+    width: 460px;
+    padding: 10px;
+  }
+
+  .promo__text::before {
+    position: absolute;
+    display: block;
+    content: "";
+    border-left: 3px solid $line-color;
+    width: 100%;
+    height: 100%;
+    left: -25px;
   }
 
   .promo__text,
@@ -80,7 +88,7 @@
     font-size: 25px;
   }
 
-  .promo {
-    left: 30%;
+  .promo__text {
+    margin-left: 50px;
   }
 }
