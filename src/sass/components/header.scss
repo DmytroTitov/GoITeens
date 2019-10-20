@@ -2,15 +2,15 @@
   position: relative;
 }
 
-.page_nav__logo img {
+.page_nav__img {
   width: 100px;
   height: 26px;
 }
 
 .page_nav__logo {
-  display: inline-block;
   position: relative;
   z-index: 3;
+  display: inline-block;
 }
 
 /*HAMBURGER*/
@@ -39,22 +39,22 @@
 }
 
 .menu__btn {
-  display: flex;
-  align-items: center;
   position: absolute;
   top: 0px;
   right: 5px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
   width: 30px;
   height: 20px;
   cursor: pointer;
-  z-index: 3;
 }
 
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-  display: block;
   position: absolute;
+  display: block;
   width: 100%;
   height: 3px;
   background-color: $light-color;
@@ -72,39 +72,39 @@
 }
 
 .menu__box {
-  display: block;
   position: fixed;
-  visibility: hidden;
   top: 0;
   left: -100%;
+  z-index: 2;
+  display: block;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 120px 0;
-  list-style: none;
-  background-color: $hamburger-background-color;
-  transition-duration: 0.25s;
-  z-index: 2;
   text-align: center;
+  background-color: $hamburger-background-color;
+  list-style: none;
+  transition-duration: 0.25s;
+  visibility: hidden;
 }
 
 .menu__item {
   position: relative;
   display: inline-block;
   padding: 12px 0px;
-  color: $light-color;
   font-family: $subtitle-ff;
   font-size: 25px;
   font-weight: 700;
+  color: $light-color;
   text-decoration: none;
   transition-duration: 0.25s;
 }
 
 .menu__item::after {
-  width: 0%;
   position: absolute;
-  content: "";
   display: block;
+  width: 0%;
+  content: "";
   border-bottom: 2px solid $line-color;
   padding-top: 6px;
   transition: width 0.25s ease-in-out;
@@ -119,7 +119,7 @@
     padding-top: 28px;
   }
 
-  .page_nav__logo img {
+  .page_nav__img {
     width: 142px;
     height: 38px;
   }
@@ -130,18 +130,18 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .page_nav__logo img {
+  .page_nav__img {
     margin-top: 24px;
   }
 
   .menu__box {
-    visibility: visible;
     position: relative;
     left: 0;
-    height: auto;
-    background: none;
-    padding: 0;
     display: flex;
+    height: auto;
+    padding: 0;
+    background: none;
+    visibility: visible;
   }
 
   .menu__btn {
@@ -159,11 +159,11 @@
   }
 
   .menu__item {
-    margin-right: 44px;
     font-size: 18px;
+    margin-right: 44px;
   }
 
-  .page_nav__btn {
+  .menu__subscribe {
     margin: 0;
   }
 }
