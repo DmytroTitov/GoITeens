@@ -76,20 +76,20 @@
 .program__img {
   height: 320px;
   margin-bottom: 42px;
-  background-image: url('../../images/children-mobile.jpg');
+  background-image: url('../images/children-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 70px;
-    background-image: url('../../images/children-tablet.jpg');
+    background-image: url('../images/children-tablet.jpg');
   }
 
   @media screen and (min-width: 1920px) {
     height: 400px;
     width: 650px;
     margin-bottom: 114px;
-    background-image: url('../../images/children-desktop.jpg');
+    background-image: url('../images/children-desktop.jpg');
   }
 }
 
