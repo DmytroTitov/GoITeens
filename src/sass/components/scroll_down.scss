@@ -1,0 +1,13 @@
+.scroll {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.scroll__down {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
