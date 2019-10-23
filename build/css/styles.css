@@ -1086,6 +1086,114 @@ p {
   background-color: #c8eae8;
 }
 
+.footer {
+  min-height: 574px;
+  background: linear-gradient(#222222 85%, #151515 85%, #151515 100%);
+  padding: 43px 0px 0px 45px;
+  position: relative;
+}
+
+.footer-button__up a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 25px;
+  background-color: #333333;
+  visibility: hidden;
+  position: absolute;
+}
+
+.footer-button__up--item svg {
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+}
+
+.footer-logo__img {
+  margin-bottom: 19px;
+  width: 100px;
+  height: 26px;
+}
+
+.footer-list__text {
+  color: #9699a6;
+  font-size: 14px;
+  font-family: "Ubuntu", "Arial", sans-serif;
+  line-height: 2;
+}
+
+.footer-list__text--locate {
+  margin-bottom: 28px;
+  width: 160px;
+}
+
+.footer-list__text--contacts {
+  margin-bottom: 36px;
+  width: 140px;
+}
+
+.footer-list__btn {
+  width: 192px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e9ac38;
+  color: #fff;
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 16px;
+  transition: background-color 400ms;
+  margin-bottom: 34px;
+}
+
+.footer-list__btn:hover,
+.footer-list__btn:focus {
+  background-color: #f39313;
+}
+
+.footer-list__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-bottom: 57px;
+}
+
+.footer-list__icons--item svg {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+
+.footer-list__icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 25px;
+  background-color: #6398e0;
+}
+
+.footer-list__icons a:nth-child(2n) {
+  background-color: #3b4e70;
+}
+
+.footer-list__icons a:last-child {
+  background-color: #9f2431;
+}
+
+.footer-occupation {
+  padding-bottom: 23px;
+}
+
+.footer-occupation__link {
+  line-height: 1.5;
+  font-size: 12px;
+  font-family: "Open Sans Semi Bold", "Arial", sans-serif;
+  color: #626263;
+}
+
 @media screen and (min-width: 767px) {
   .courses__card-item:hover .courses__card-age--sup::after {
     background-image: url(../images/arrow-white.png);
@@ -1192,6 +1300,53 @@ p {
 
   .courses__card-age {
     font-size: 40px;
+  }
+
+  .footer {
+    min-height: 300px;
+    padding: 55px 0px 0px 35px;
+  }
+
+  .footer-button__up a {
+    visibility: visible;
+    top: -15px;
+    left: 635px;
+  }
+
+  .footer-logo__img {
+    margin-bottom: 28px;
+  }
+
+  .footer-list {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-list__text {
+    display: flex;
+  }
+
+  .footer-list__text--locate {
+    margin-right: 52px;
+  }
+
+  .footer-list__btn {
+    margin-bottom: 22px;
+  }
+
+  .footer-list__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-occupation {
+    padding: 15px 0px;
+    width: 576px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -1320,6 +1475,34 @@ p {
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 19px;
+  }
+
+  .footer {
+    padding: 55px 0px 0px 0px;
+  }
+
+  .footer-button__up a {
+    visibility: visible;
+    top: 230px;
+    left: 1240px;
+  }
+
+  .footer-list__text--locate {
+    margin-right: 145px;
+  }
+
+  .footer-list__text--contacts {
+    margin-right: 160px;
+  }
+
+  .footer-list__btn {
+    margin-right: 163px;
+  }
+
+  .footer-list__items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
