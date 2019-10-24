@@ -155,4 +155,9 @@
   font-size: 12px;
   font-family: $legal-ff;
   color: $legal-text-color;
+  &:hover,
+  &:focus{
+    text-decoration-line: underline;
+  }
 }
+  

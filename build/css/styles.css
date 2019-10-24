@@ -1194,6 +1194,12 @@ p {
   color: #626263;
 }
 
+.footer-occupation__link:hover,
+.footer-occupation__link:focus {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+
 @media screen and (min-width: 767px) {
   .courses__card-item:hover .courses__card-age--sup::after {
     background-image: url(../images/arrow-white.png);
