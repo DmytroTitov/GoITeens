@@ -227,14 +227,16 @@
         </li>
       </ul>
     </section>
-    <section class="footer container">
+    <section class="footer">
+      <footer class="footer-main">
+        <div class="container">
       <div class="footer-button__up">
-      <a href="#" class="footer-button__up--item">
+        <a href="#" class="footer-button__up--item">
           <svg>
-              <use href="images/sprite.svg#arrow"></use>
-            </svg>
-      </a>
-    </div>
+            <use href="images/sprite.svg#arrow"></use>
+          </svg>
+        </a>
+      </div>
       <a class="footer-logo" href="#">
         <img
           class="footer-logo__img"
@@ -245,43 +247,74 @@
           height="37"
         />
       </a>
-      <div class="footer-list">
-          <div class="footer-list__text">
-        <p class="footer-list__text--locate">
-          01133 Україна, Київ 5 хвилин від м. Печерська бул. Лесі Українки 26
-          4-й поверх
-        </p>
-        <p class="footer-list__text--contacts">
-          contact@goiteens.ua +38 093 343 21 27 +38 067 326 95 92 +38 050 366 17
-          77
-        </p>
-      </div>
+      <div class="footer-wrapper">
+      <ul class="footer-list">
+        <li class="footer-list__text">
+          <p class="footer-list__text--locate">
+            01133 Україна, Київ 5 хвилин від м. Печерська бул. Лесі Українки 26
+           <br>4-й поверх
+          </p>
+        </li>
+
+        <li class="footer-list__text">
+          <p class="footer-list__text--contacts">
+            contact@goiteens.ua +38 093 343 21 27 +38 067 326 95 92 +38 050 366
+            17 77
+          </p>
+        </li>
+      </ul>
       <div class="footer-list__items">
-      <button class="footer-list__btn">Залишити заявку</button>
-      <div class="footer-list__icons">
-        <a href="#" class="footer-list__icons--item">
-          <svg>
-            <use href="images/sprite.svg#telegram"></use>
-          </svg>
-        </a>
-        <a href="#" class="footer-list__icons--item">
-          <svg>
-            <use href="images/sprite.svg#facebook"></use>
-          </svg>
-        </a>
-        <a href="#" class="footer-list__icons--item">
-          <svg>
-            <use href="images/sprite.svg#youtube"></use>
-          </svg>
-        </a>
+        <button type="button" class="menu__subscribe footer-button">
+         <a href="https://goiteens.ua/" target="blank">Залишити заявку</a> 
+        </button>
+        <ul class="footer-list__icons">
+          <li class="item">
+            <a href="https://t.me/junior_developer_ua" target="blank" class="footer-list__icons--item">
+              <svg>
+                <use href="images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://www.facebook.com/goITclub/" target="blank" class="footer-list__icons--item">
+              <svg>
+                <use href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://www.youtube.com/channel/UCN7NQEBOUuIoXrJZzqVb58Q/videos" target="blank" class="footer-list__icons--item">
+              <svg>
+                <use href="images/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
       </div>
     </div>
-    </div>
-      <div class="footer-occupation">
-        <a href="#" class="footer-occupation__link"><p>Політика конфіденційності</p></a>
-        <a href="#" class="footer-occupation__link"><p>Відмова від відповідальності</p></a>
-        <a href="#" class="footer-occupation__link"><p>Згода з розсилкою</p></a>
+    </footer>
+      <footer class="footer-legal">
+        <div class="container">
+        <ul class="footer-legal__list">
+          <li>
+            <a href="https://goiteens.ua/" target="blank" class="footer-legal__list--link"
+              ><p>Політика конфіденційності</p></a
+            >
+          </li>
+          <li>
+            <a href="https://goiteens.ua/" target="blank" class="footer-legal__list--link"
+              ><p>Відмова від відповідальності</p></a
+            >
+          </li>
+          <li>
+            <a href="https://goiteens.ua/" target="blank" class="footer-legal__list--link"
+              ><p>Згода з розсилкою</p></a
+            >
+          </li>
+        </ul>
       </div>
+      </footer>
     </section>
   </body>
 </html>
