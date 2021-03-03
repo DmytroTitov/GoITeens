@@ -1,4 +1,4 @@
-# HTML, SCSS, Gulp 
+# HTML5, SCSS, Gulp 
 
 **First step-project in GO-IT**
 
